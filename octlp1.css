@@ -1,0 +1,553 @@
+@media (max-width: 1200px) and (min-width: 750px){
+    .titlebar{
+        display: grid;
+        grid-template-columns: 100px 90px 80px 80px 40px 210px 40px 110px 40px;
+        width:100%;
+        column-gap: 0.8%;
+        justify-content: center;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .t7{
+        margin-right: 0px;
+    }
+    .menu{
+        margin-top: 36px;
+        height: 40px;
+        width: 40px;
+        margin-left: 70px;
+    }
+    .menubar{
+        height: 4px;
+        width: 30px;
+        margin: 3px 0px;
+    }
+    .t4{
+       margin-top: 34px;
+    }
+    .i1{
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    .t5{
+        margin-top: 14px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .searchbar{
+        margin-top: 15px;
+        height: 35px;
+        width: 200px;
+        font-size: 26px;
+        padding-left: 10px;
+    }
+    .t6{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .t8{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .i2{
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+    .hometxt{
+        left: 55%;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .pathway{
+        margin-left: 10px;
+        margin-top: 40px;
+        height: 60px;
+        width: 240px;
+        font-size: 24px;
+    }
+    .about{
+        grid-template-columns: 600px 100px;
+        column-gap: 0;
+    }
+    .i3{
+        margin-top: 220px;
+        margin-left: 10px;
+        height: 160px;
+        width: 160px;
+
+    }
+    .respabout{
+        margin-left: 10px;
+    }
+    .ah{
+        font-size: 22px;
+    }
+    .respcontact{
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        width: 800px;
+        grid-template-columns: 230px 540px;
+    }
+    .contactdiv1{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .h{
+        margin: 0px;
+        font-size: 30px;
+    }
+    .cd01{
+        display: grid;
+        grid-template-columns: 300px 240px;
+        width: 540px;
+    }
+    .contactdiv2{
+        width: 280px;
+    }
+    .cd0{
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    
+    .contactdiv3{
+       width: 240px;
+       margin-top: 25px;
+    }
+    .cd4{
+        margin-left: 86px;
+    }
+    .i4{
+        border-radius: 150px;
+        height: 240px;
+        width: 240px;
+        margin-top: 80px;
+    }
+    .scrol-content {
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        padding-left: 0px;
+    }
+    .scrol-container{
+        width: 700px;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    .scroll-container {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    }
+    .scroll-content {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-left: 0px;
+    }
+    .scroll-arrow{
+        display: flex;
+        visibility: visible;
+    } }
+@media (min-width: 1200px){
+    .scroll-arrow{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media(max-width: 1200px) and (min-width: 900px){
+    .titlebar{
+        display: grid;
+        grid-template-columns: 40px 90px 80px 80px 40px 220px 40px 110px 40px;
+        font-size: 38px;
+        column-gap: 2%;
+        line-height: 20px;
+    }
+    .menu{
+        margin-left: 20px;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 750px 150px;
+    }
+    .i3{
+    margin-top: 180px; }
+    .contact{
+            width: 900px;
+            grid-template-columns: 330px 540px;
+    }
+    .scroll-container, .scrol-container{
+        width: 900px;
+    }
+        
+    }
+@media (max-width: 750px) and (min-width: 300px){
+    .sidenav{
+        visibility: visible;
+    }
+    .titlebar{
+        display: grid;
+        grid-template-columns: 40px 0px 0px 0px 70px 190px 40px 90px 40px;
+        width:100%;
+        justify-content:center;
+        font-size: 26px;
+        line-height: 44px;
+        height: 80px;
+        column-gap: clamp(10px, 1vw, 20px);
+    }
+    .toolbar-text{
+        visibility: hidden;
+    }
+    .t7{
+        margin-right: 0px;
+    }
+    .menu{
+        margin-top: 36px;
+        height: 40px;
+        width: 40px;
+        margin-left: 0;
+        margin-right: 0%;
+    }
+    .menubar{
+        height: 4px;
+        width: 30px;
+        margin: 3px 0px;
+    }
+    .t4{
+        visibility: hidden;
+    }
+
+.t5{
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+    .searchbar{
+        margin-top: 15px;
+        height: 35px;
+        width: 170px;
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .t6{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .t8{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .i2{
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+        margin-left: 0px;
+    }
+    .hometxt{
+        left: 55%;
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .pathway{
+        margin-left: 10px;
+        margin-top: 40px;
+        height: 60px;
+        width: 240px;
+        font-size: 24px;
+    }
+    .about{
+        grid-template-columns: 600px 0px;
+    }
+    .i3{
+        margin-top: 220px;
+        margin-left: 10px;
+        height: 0px;
+        width: 0px;
+        visibility: hidden;
+
+    }
+    .respabout{
+        margin-left: 10px;
+    }
+    .ah{
+        font-size: 22px;
+    }
+    .respcontact{
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .contact{
+        width: 600px;
+        grid-template-columns: 0 auto;
+        justify-self: center;
+        padding-left: 20px;
+        border-radius: 30px;
+    }
+    .contactdiv1{
+        display: none;
+        margin-left: 0px;
+        font-size: 18px;
+    
+    }
+    .h{
+        margin: 0px;
+        font-size: 30px;
+    }
+    .cd01{
+        display: grid;
+        grid-template-columns: 300px 240px;
+        width: 540px;
+      
+    }
+    .contactdiv2{
+        width: 280px;
+    }
+    .cd0{
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    
+    .contactdiv3{
+        width: 240px;
+        margin-top: 25px;
+    }
+    .cd4{
+        margin-left: 86px;
+    }
+    .i4{
+        border-radius: 150px;
+        height: 240px;
+        width: 240px;
+        margin-top: 80px;
+    }
+    .buttonsclass{
+        height: 52px;
+        width: 400px;
+        padding-top: 6px;
+        background-color: rgb(210, 209, 209);
+        border-radius: 100px;
+        justify-self: center;
+     }
+     .coursebutton{
+         height: 45px;
+         width: 120px;
+         margin-left: 10px;
+       
+         font-size: 30px;
+         cursor: pointer;
+     
+     }
+     .projectbutton{
+         height: 45px;
+         width: 120px;
+         margin-left: 2px;
+         border-radius: 30px;
+         font-family: cookie;
+         font-size: 30px;
+         background-color: white;
+        cursor: pointer;
+     }
+     .internbutton{
+         height: 45px;
+         width: 120px;
+         margin-left: 2px;
+         border-radius: 30px;
+         font-family: cookie;
+         font-size: 30px;
+         background-color: white;
+         cursor: pointer;
+     }
+    .scroll-container{
+        width: 620px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .scrol-container {
+        display: flex;
+        align-items: center;
+    }
+    .scrol-content {
+        display: flex;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        padding-left: 20px;
+    }
+    .scrol-container{
+        width: 620px;
+        display: flex;
+        justify-self: center;
+    }
+    .scroll-content {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-left: 20px;
+    }
+    .body{
+        overflow-x: hidden;
+    }
+    .scroll-arrow{
+        visibility: visible;
+    }
+}
+@media (max-width: 570px) and (min-width: 400px){
+    .titlebar{
+        grid-template-columns: 40px 0px 0px 0px 70px 190px 40px 90px 40px;
+        column-gap: 0;
+    }
+}
+@media (max-width: 480px) and (min-width: 340px){
+    .titlebar{
+        grid-template-columns: 20px 0px 0px 0px 40px 120px 40px 90px 40px;
+        column-gap: 0;
+    }
+    .searchbar{
+        width: 100px;
+    }
+}
+@media (max-width: 630px) and (min-width: 340px){
+    .about{
+        grid-template-columns: 450px 0px;
+    }
+    .contact{
+        width: 450px;
+        height: 360px;
+        padding-left: 10px;   }
+    .cd01{
+        height: 340px;
+        grid-template-columns: 270px 150px;
+        width: 420px;
+        margin: 5px 0;    }
+    .contactdiv3{
+        width: 130px;
+    }
+    .contactdiv2{
+        grid-template-rows: 90px 200px;
+        margin-top: 25px;
+        width: 250px;
+        height: 300px;
+        font-size: 16px;
+    }
+    .cd0{
+        margin-left: 90px;
+        margin-top: 40px;
+    }
+    .cd1{
+        font-size: 40px;
+    }
+    .cd4{
+        font-size: 30px;
+        margin-left: 66px;
+    }
+    .pathway{
+        width: 140px;
+        font-size: 16px;
+        height: 46px;
+        margin: 0;
+    }
+    .hometxt{
+        top: 40%;
+        font-size: 18px;
+    }
+    
+    .i4{
+        border-radius: 150px;
+        height: 140px;
+        width: 140px;
+        margin-top: 110px; 
+    }
+    .scrol-container{
+        width: 450px;
+    }
+    .scroll-container{
+        width: 450px;
+    }
+
+}
+@media (max-width: 480px) and (min-width: 340px){
+    .about{
+     grid-template-columns: 340px 0px;
+     font-size: 16px;
+    }
+   .scrol-container{
+     width: 330px;
+     
+   }
+   .scroll-container{
+     width: 330px;
+     
+   }
+   .pwd{
+    padding: 0;
+    column-gap: 40px;
+   }
+   .ah{
+    font-size: 18px;
+   }
+   .buttonsclass{
+    width: 290px;
+    height: 42px;
+   }
+   .coursebutton,.projectbutton, .internbutton{
+    width: 85px;
+    font-size: 20px;
+    height: 36px;
+   }
+  
+   .contact{
+        width: 300px;
+        height: 360px;
+        padding: 10px;   }
+
+    .cd01{
+        height: 340px;
+        grid-template-columns: 300px 0px;
+        width: 280px;
+        padding: 0;
+        margin: 5px 10px;   
+ }
+    .contactdiv2{
+        height: 340px;
+        width: 280px;
+        grid-template-rows: 130px 200px;
+        margin:0;
+    
+    }
+    .cd0{
+        margin-left: 110px;
+        margin-top: 40px;
+    }
+    .cd1{
+        font-size: 60px;
+    }
+    .cd4{
+      
+        font-size: 30px;
+        margin-left: 86px;
+    }
+    .contactdiv3{
+        width: 0;
+    }
+    .i4{
+        width: 0;
+        display: none;
+    }
+    .hometxt{
+        top: 35%;
+        font-size: 18px;
+    }
+    
+ 
+ }
