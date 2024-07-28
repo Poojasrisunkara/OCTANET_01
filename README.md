@@ -4,6 +4,10 @@ Welcome to Rugaway, a website dedicated to providing courses, internships, and p
 
 ## Project Overview
 
+
+https://github.com/user-attachments/assets/32c3935f-efc5-4509-8f07-e004898fece4
+
+
 ## Features
 
 - **Responsive Design**: The landing page is fully responsive, ensuring a seamless experience across all devices, including desktops, tablets, and mobile phones.
